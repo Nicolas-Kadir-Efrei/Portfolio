@@ -104,7 +104,7 @@ export default function ProjetsSection() {
   </div>
 </div>
                 
-<a href="https://nicolas-kadir-ciftci.vercel.app/home" target="_blank" rel="noopener noreferrer" className="text-sm px-4 py-2 transition-colors duration-300">
+<a href="https://nicolas-kadir-ciftci.vercel.app" target="_blank" rel="noopener noreferrer" className="text-sm px-4 py-2 transition-colors duration-300">
 <button  className="animated-btn">
 
 
