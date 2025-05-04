@@ -7,6 +7,7 @@ import AccueilSection from "@/components/accueil";
 import AboutSection from "@/components/about";
 import ParcoursSection from "@/components/parcours";
 import ProjetsSection from "@/components/projets";
+import VeilleSection from "@/components/veille";
 
 export default function Portfolio() {
   const [section, setSection] = useState("accueil");
@@ -84,9 +85,7 @@ export default function Portfolio() {
         <AboutSection />
         <ParcoursSection />
         <ProjetsSection />
-        <section id="veille" className="min-h-screen flex items-center justify-center bg-white/5 backdrop-blur-sm">
-          <h2 className="text-3xl text-white">Veilles</h2>
-        </section>
+        <VeilleSection />
         <section id="contact" className="min-h-screen flex items-center justify-center bg-white/5 backdrop-blur-sm">
           <h2 className="text-3xl text-white">Contact</h2>
         </section>

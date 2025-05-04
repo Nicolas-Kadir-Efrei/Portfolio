@@ -19,8 +19,8 @@ export default function ProjetsSection() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">[Nom du Projet]</h3>
-                <p className="text-gray-300 mb-4">[Description courte du projet]</p>
+                <h3 className="text-xl font-semibold mb-2">Jeu Snake</h3>
+                <p className="text-gray-300 mb-4">Le but du jeu est de diriger un serpent qui grandit et constitue ainsi lui-même un obstacle. Le jeu se termine lorsque le serpent se touche lui-même ou les bords de l'écran</p>
                 
                 {/* Technologies utilisées */}
                 <div className="mb-4">
@@ -44,27 +44,46 @@ export default function ProjetsSection() {
 
                 {/* Liens */}
                 <div className="flex gap-4">
-                <Link href="/Snake"> <button  className="animated-btn">
-
-  <div class="svg-wrapper-1">
-    <div class="svg-wrapper">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        width="24"
-        height="24"
-      >
-        <path fill="none" d="M0 0h24v24H0z"></path>
-        <path
-          fill="currentColor"
-          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-        ></path>
-      </svg>
-    </div>
-  </div>
-  <span>Accéder</span>
-
-</button></Link>
+                  <Link href="/Snake"> 
+                    <button className="animated-btn">
+                      <div className="svg-wrapper-1">
+                        <div className="svg-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                              fill="currentColor"
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>Accéder</span>
+                    </button>
+                  </Link>
+                  <a href="https://github.com/Nicolas-Kadir-Efrei/Portfolio/tree/main/src/app/Snake" target="_blank" rel="noopener noreferrer" className="animated-btn bg-white/10 hover:bg-white/20">
+                    <div className="svg-wrapper-1">
+                      <div className="svg-wrapper">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                        >
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path
+                            fill="currentColor"
+                            d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Voir le Code</span>
+                  </a  >
                 </div>
               </div>
             </div>
@@ -79,7 +98,7 @@ export default function ProjetsSection() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Site Météo</h3>
-                <p className="text-gray-300 mb-4">Ce projet est mon premier projet avec des langues de codage autre que HTML CSS JavaScript</p>
+                <p className="text-gray-300 mb-4">Mon Premier site méteo avec React et API OpenWeatherMap</p>
                 
                                 {/* Technologies utilisées */}
                                 <div className="mb-4">
@@ -104,31 +123,48 @@ export default function ProjetsSection() {
   </div>
 </div>
                 
-<a href="https://nicolas-kadir-ciftci.vercel.app" target="_blank" rel="noopener noreferrer" className="text-sm px-4 py-2 transition-colors duration-300">
-<button  className="animated-btn">
-
-
-
-  <div className="svg-wrapper-1">
-    <div className="svg-wrapper">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        width="24"
-        height="24"
-      >
-        <path fill="none" d="M0 0h24v24H0z"></path>
-        <path
-          fill="currentColor"
-          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-        ></path>
-      </svg>
+<div className="flex gap-4">
+  <a href="https://nicolas-kadir-ciftci.vercel.app" target="_blank" rel="noopener noreferrer">
+    <button className="animated-btn">
+      <div className="svg-wrapper-1">
+        <div className="svg-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              fill="currentColor"
+              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <span>Ouvrir</span>
+    </button>  
+  </a>
+  <a href="https://github.com/Nicolas-Kadir-Efrei/Meteonv" target="_blank" rel="noopener noreferrer" className="animated-btn bg-white/10 hover:bg-white/20">
+    <div className="svg-wrapper-1">
+      <div className="svg-wrapper">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path
+            fill="currentColor"
+            d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z"
+          ></path>
+        </svg>
+      </div>
     </div>
-  </div>
-  <span>Ouvrir</span>
-
-</button>  
-</a>             
+    <span>Voir le Code</span>
+  </a >
+</div>             
               </div>
             </div>
 
@@ -168,12 +204,46 @@ export default function ProjetsSection() {
 </div>
 
                 <div className="flex gap-4">
-                  <a href="#" className="text-sm px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors duration-300">
-                    Voir le projet
+                  <a href="#" className="text-sm transition-colors duration-300">
+                    <button className="animated-btn">
+                      <div className="svg-wrapper-1">
+                        <div className="svg-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                              fill="currentColor"
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>Voir le projet</span>
+                    </button>
                   </a>
-                  <a href="#" className="text-sm px-4 py-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors duration-300">
-                    Code source
-                  </a>
+                  <button className="animated-btn bg-white/10 hover:bg-white/20">
+                    <div className="svg-wrapper-1">
+                      <div className="svg-wrapper">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          width="24"
+                          height="24"
+                        >
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path
+                            fill="currentColor"
+                            d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <span>Voir le Code</span>
+                  </button>
                 </div>
               </div>
             </div>
