@@ -39,7 +39,12 @@ export default function Portfolio() {
   const handleNavigation = (newSection) => {
     setSection(newSection);
     setScrolling(true);
-    document.getElementById(newSection).scrollIntoView({ behavior: "smooth" });
+    const element = document.getElementById(newSection);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      console.warn(`Element with id '${newSection}' not found`);
+    }
     setTimeout(() => setScrolling(false), 1000);
   };
 
