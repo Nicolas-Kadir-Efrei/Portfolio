@@ -1,19 +1,31 @@
 "use client";
 import { useState } from 'react';
 
-export default function VeilleSection() {
+export default function VeilleSection({ onBack }) {
   const [activeTab, setActiveTab] = useState('introduction');
 
   return (
     <section id="veille" className="min-h-screen w-full py-20 text-white">
+      
       <div className="container mx-auto px-4">
         <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl">
           <h2 className="text-4xl font-bold mb-6 text-center">Veille Technologique</h2>
           
           <div className="bg-gradient-to-r from-purple-800/40 to-pink-600/40 p-8 rounded-2xl backdrop-blur-sm border border-white/20 shadow-lg">
-            <div className="mb-8">
-              <h3 className="text-3xl font-bold mb-2 text-white">Low-Code/No-Code : La Démocratisation du Développement Logiciel</h3>
-              <p className="text-lg text-white/80 italic">Période de veille : 2023-2025</p>
+            <div className="flex justify-between items-start mb-8">
+              <div>
+                <h3 className="text-3xl font-bold mb-2 text-white">Low-Code/No-Code : La Démocratisation du Développement Logiciel</h3>
+                <p className="text-lg text-white/80 italic">Période de veille : 2023-2025</p>
+              </div>
+              <button 
+                onClick={onBack}
+                className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300 flex items-center group ml-4 mt-2"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 group-hover:-translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Retour
+              </button>
             </div>
             
             {/* Navigation des onglets */}
