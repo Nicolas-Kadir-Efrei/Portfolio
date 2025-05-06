@@ -98,7 +98,7 @@ export default function ParcoursSection() {
                     <div className="flex-1">
                       <h4 className="font-bold text-xl text-white">Analyste / Développeur Junior</h4>
                       <h3 className="text-pink-200 font-semibold mb-3">Digital Data Performance</h3>
-                      <p className="mt-2 text-white/80 leading-relaxed">[Description des responsabilités]</p>
+                      <p className="mt-2 text-white/80 leading-relaxed">En tant qu’alternant Analyste Junior en apprentissage, j’apprends à analyser les données issues de la plateforme ServiceNow pour suivre et améliorer la performance des services IT. J’utilise Power BI pour concevoir des tableaux de bord interactifs qui aident les équipes à visualiser les indicateurs clés, comme les volumes d’incidents ou les délais de résolution. Cet apprentissage me permet de développer mes compétences en data visualisation, en compréhension des processus IT, et de contribuer progressivement à des prises de décisions basées sur les données.</p>
                     </div>
                   </div>
                   
