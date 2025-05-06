@@ -59,6 +59,12 @@ export default function VeilleJeuxMobiles({ onBack }) {
               >
                 Sources
               </button>
+              <button 
+                className={`px-4 py-2 ${activeTab === 'outils-utilises' ? 'bg-white/20 text-white rounded-t-lg' : 'text-white/70 hover:bg-white/10'}`}
+                onClick={() => setActiveTab('outils-utilises')}
+              >
+                Outils utilisés
+              </button>
             </div>
             
             {/* Contenu des onglets */}
@@ -403,6 +409,50 @@ export default function VeilleJeuxMobiles({ onBack }) {
                         </div>
                       </li>
                     </ul>
+                  </div>
+                </div>
+              )}
+              
+              {activeTab === 'outils-utilises' && (
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold mb-4">Outils utilisés pour cette veille technologique</h4>
+                  
+                  <div className="bg-gradient-to-r from-blue-800/20 to-purple-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils de veille et de recherche</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>App Annie</strong> - Plateforme d'analyse de données pour les applications mobiles</li>
+                      <li><strong>Discord</strong> - Communautés de développeurs et joueurs de jeux mobiles</li>
+                      <li><strong>YouTube Gaming</strong> - Chaînes spécialisées dans les jeux mobiles</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-blue-800/20 to-purple-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils d'analyse et de suivi</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>SensorTower</strong> - Analyse des tendances et performances des jeux mobiles</li>
+                      <li><strong>Google Play Console</strong> - Suivi des tendances sur le Play Store</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-blue-800/20 to-purple-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Plateformes testées et analysées</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Genshin Impact</strong> - Jeu d'action-RPG en monde ouvert</li>
+                      <li><strong>Pokémon GO</strong> - Jeu en réalité augmentée</li>
+                      <li><strong>Call of Duty: Mobile</strong> - FPS mobile</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="mt-6 p-4 bg-white/10 rounded-lg">
+                    <h5 className="font-semibold mb-2 text-center">Méthodologie</h5>
+                    <p>
+                      Cette veille a été réalisée selon une approche complète :
+                      <ul className="list-disc pl-6 space-y-1 mt-2">
+                        <li>Suivi des lancements de jeux et mises à jour majeures</li>
+                        <li>Analyse des tendances de gameplay et de monétisation</li>
+                        <li>Participation à des événements et conférences du secteur</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               )}

@@ -8,6 +8,7 @@ import AboutSection from "@/components/about";
 import ParcoursSection from "@/components/parcours";
 import ProjetsSection from "@/components/projets";
 import VeilleSelector from "@/components/veilleSelector";
+import E5Section from "@/components/e5";
 
 export default function Portfolio() {
   const [section, setSection] = useState("accueil");
@@ -117,7 +118,7 @@ export default function Portfolio() {
         
         {/* Navigation */}
         <div className="flex flex-col space-y-3">
-          {["accueil", "about", "parcours", "projets", "veille", "contact", "e5"].map((item) => (
+          {["accueil", "about", "parcours", "projets", "veille", "e5", "BTS SIO"].map((item) => (
             <Button
               key={item}
               onClick={() => handleNavigation(item)}
@@ -139,11 +140,94 @@ export default function Portfolio() {
         <ParcoursSection />
         <ProjetsSection />
         <VeilleSelector />
-        <section id="contact" className="min-h-screen flex items-center justify-center bg-white/5 backdrop-blur-sm">
-          <h2 className="text-3xl text-white">Contact</h2>
-        </section>
-        <section id="e5" className="min-h-screen flex items-center justify-center bg-white/5 backdrop-blur-sm">
-          <h2 className="text-3xl text-white">Épreuve E5</h2>
+        <E5Section />
+        <section id="BTS SIO" className="min-h-screen w-full py-20 text-white">
+          <div className="container mx-auto px-4">
+            <div className="bg-white/5 backdrop-blur-sm p-8 rounded-2xl">
+              <div className="flex justify-between items-center mb-12">
+                <h2 className="text-4xl font-bold text-center flex-grow">BTS SIO</h2>
+              </div>
+              
+              <div className="space-y-8">
+                {/* Présentation du BTS SIO */}
+                <div className="bg-gradient-to-r from-purple-800/40 to-pink-600/40 p-8 rounded-2xl backdrop-blur-sm transform hover:scale-105 transition-transform duration-300 border border-white/20 shadow-lg">
+                  <h3 className="text-2xl font-bold mb-6 text-white/90 border-b border-white/20 pb-3">
+                    Présentation de la formation
+                  </h3>
+                  <p className="mt-2 text-white/80 leading-relaxed mb-6">
+                    Le BTS Services Informatiques aux Organisations (SIO) est une formation de niveau bac+2 qui prépare aux métiers de l'informatique. Cette formation se décline en deux options : SISR (Solutions d'Infrastructure, Systèmes et Réseaux) et SLAM (Solutions Logicielles et Applications Métiers).
+                  </p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div className="bg-white/10 p-6 rounded-xl">
+                      <h4 className="font-bold text-xl text-white mb-4">Option SISR</h4>
+                      <p className="text-white/80 mb-4">
+                        L'option SISR forme des professionnels capables de gérer et d'administrer le réseau d'une entreprise et d'en assurer la sécurité, la maintenance et le déploiement.
+                      </p>
+                      <ul className="list-disc pl-6 space-y-2 text-white/80">
+                        <li>Administration systèmes et réseaux</li>
+                        <li>Cybersécurité</li>
+                        <li>Virtualisation et Cloud Computing</li>
+                        <li>Supervision et maintenance</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-white/10 p-6 rounded-xl">
+                      <h4 className="font-bold text-xl text-white mb-4">Option SLAM</h4>
+                      <p className="text-white/80 mb-4">
+                        L'option SLAM forme des développeurs capables de concevoir, développer, déployer et maintenir des solutions applicatives pour répondre aux besoins des organisations.
+                      </p>
+                      <ul className="list-disc pl-6 space-y-2 text-white/80">
+                        <li>Développement d'applications</li>
+                        <li>Conception de bases de données</li>
+                        <li>Intégration web et mobile</li>
+                        <li>Méthodes agiles et DevOps</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Débouchés */}
+                <div className="bg-gradient-to-r from-purple-800/40 to-pink-600/40 p-8 rounded-2xl backdrop-blur-sm transform hover:scale-105 transition-transform duration-300 border border-white/20 shadow-lg">
+                  <h3 className="text-2xl font-bold mb-6 text-white/90 border-b border-white/20 pb-3">
+                    Débouchés professionnels
+                  </h3>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="bg-white/10 p-6 rounded-xl">
+                      <h4 className="font-bold text-xl text-white mb-4">Métiers SISR</h4>
+                      <ul className="list-disc pl-6 space-y-2 text-white/80">
+                        <li>Administrateur systèmes et réseaux</li>
+                        <li>Technicien support</li>
+                        <li>Responsable sécurité</li>
+                        <li>Technicien d'infrastructure</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-white/10 p-6 rounded-xl">
+                      <h4 className="font-bold text-xl text-white mb-4">Métiers SLAM</h4>
+                      <ul className="list-disc pl-6 space-y-2 text-white/80">
+                        <li>Développeur d'applications</li>
+                        <li>Développeur web et mobile</li>
+                        <li>Intégrateur d'applications</li>
+                        <li>Analyste programmeur</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-white/10 p-6 rounded-xl">
+                      <h4 className="font-bold text-xl text-white mb-4">Poursuite d'études</h4>
+                      <ul className="list-disc pl-6 space-y-2 text-white/80">
+                        <li>Licence professionnelle</li>
+                        <li>Bachelor informatique</li>
+                        <li>École d'ingénieur</li>
+                        <li>Master en informatique</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
 

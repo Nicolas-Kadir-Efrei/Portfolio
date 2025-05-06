@@ -66,6 +66,12 @@ export default function VeilleSection({ onBack }) {
               >
                 Sources
               </button>
+              <button 
+                className={`px-4 py-2 ${activeTab === 'outils-utilises' ? 'bg-white/20 text-white rounded-t-lg' : 'text-white/70 hover:bg-white/10'}`}
+                onClick={() => setActiveTab('outils-utilises')}
+              >
+                Outils utilisés
+              </button>
             </div>
             
             {/* Contenu des onglets */}
@@ -307,7 +313,7 @@ export default function VeilleSection({ onBack }) {
                           <div>
                             <span className="text-white/80">"Low-code : le développement d'applications sans code", Futura Tech, 2024</span>
                             <a 
-                              href="https://www.futura-sciences.com/tech/definitions/informatique-low-code-19438/" 
+                              href="https://www.futura-sciences.com/tech/definitions/developpement-informatique-low-code-19438/" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -321,7 +327,7 @@ export default function VeilleSection({ onBack }) {
                           <div>
                             <span className="text-white/80">"Les outils no-code et low-code : comment ça marche ?", BDM, 2023</span>
                             <a 
-                              href="https://www.blogdumoderateur.com/outils-no-code-low-code-comment-ca-marche/" 
+                              href="https://www.blogdumoderateur.com/dossiers/no-code-low-code/" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -335,7 +341,7 @@ export default function VeilleSection({ onBack }) {
                           <div>
                             <span className="text-white/80">"Guide complet du No-Code/Low-Code pour les débutants", Malt, 2024</span>
                             <a 
-                              href="https://www.malt.fr/resources/guides/tech-data/low-code-no-code" 
+                              href="https://www.malt.fr/blog/guide-no-code-low-code" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -349,7 +355,7 @@ export default function VeilleSection({ onBack }) {
                           <div>
                             <span className="text-white/80">"Low-code : définition et avantages pour les entreprises", L'Usine Digitale, 2023</span>
                             <a 
-                              href="https://www.usine-digitale.fr/article/low-code-definition-et-avantages-pour-les-entreprises.N2077181" 
+                              href="https://www.usine-digitale.fr/article/qu-est-ce-que-le-low-code-et-quels-sont-ses-avantages.N2077181" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -514,19 +520,7 @@ export default function VeilleSection({ onBack }) {
                     </ul>
                   </div>
                   
-                  <div className="mt-6 p-4 bg-gradient-to-r from-purple-800/20 to-pink-600/20 rounded-lg">
-                    <h5 className="font-semibold mb-2 text-center">Outils de veille utilisés</h5>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                      <div className="p-2 bg-white/10 rounded-lg">Google Scholar</div>
-                      <div className="p-2 bg-white/10 rounded-lg">Feedly</div>
-                      <div className="p-2 bg-white/10 rounded-lg">Twitter/X</div>
-                      <div className="p-2 bg-white/10 rounded-lg">LinkedIn</div>
-                      <div className="p-2 bg-white/10 rounded-lg">ResearchGate</div>
-                      <div className="p-2 bg-white/10 rounded-lg">Zotero</div>
-                      <div className="p-2 bg-white/10 rounded-lg">Newsletters spécialisées</div>
-                      <div className="p-2 bg-white/10 rounded-lg">RSS Feeds</div>
-                    </div>
-                  </div>
+
                 </div>
               )}
               
@@ -576,6 +570,49 @@ export default function VeilleSection({ onBack }) {
                       <li>McKinsey Digital, "The business value of design", 2025</li>
                       <li>Harvard Business Review, "The Rise of the Citizen Developer", 2024</li>
                     </ul>
+                  </div>
+                </div>
+              )}
+              
+              {activeTab === 'outils-utilises' && (
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold mb-4">Outils utilisés pour cette veille technologique</h4>
+                  
+                  <div className="bg-gradient-to-r from-purple-800/20 to-pink-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils de veille et de recherche</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Feedly</strong> - Agrégateur de flux RSS pour suivre les publications spécialisées</li>
+                      <li><strong>Twitter/X</strong> - Suivi des comptes d'experts et des hashtags spécialisés</li>
+                      <li><strong>LinkedIn</strong> - Groupes professionnels et publications d'experts du secteur</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-purple-800/20 to-pink-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils d'analyse et d'organisation</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Notion</strong> - Organisation des notes et des recherches</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-purple-800/20 to-pink-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Plateformes testées</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Bubble.io</strong> - Plateforme no-code pour le développement d'applications web</li>
+                      <li><strong>Webflow</strong> - Création de sites web sans code</li>
+                      <li><strong>Microsoft Power Apps</strong> - Plateforme low-code de Microsoft</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="mt-6 p-4 bg-white/10 rounded-lg">
+                    <h5 className="font-semibold mb-2 text-center">Méthodologie</h5>
+                    <p>
+                      Cette veille a été réalisée selon une approche systématique combinant :
+                      <ul className="list-disc pl-6 space-y-1 mt-2">
+                        <li>Suivi quotidien des sources d'information spécialisées</li>
+                        <li>Participation à des webinaires et conférences en ligne</li>
+                        <li>Échanges avec des professionnels utilisant ces technologies</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               )}

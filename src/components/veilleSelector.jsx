@@ -47,24 +47,30 @@ export default function VeilleSelector() {
               Veilles Technologiques
             </motion.h2>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-12">
               {/* Carte pour la veille Low-Code/No-Code */}
               <motion.div 
-                className="bg-gradient-to-br from-purple-800/40 to-pink-600/40 p-6 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer"
+                className="bg-gradient-to-br from-purple-800/40 to-pink-600/40 p-10 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer h-[32rem] flex flex-col justify-between"
                 onClick={() => selectVeille('nocode')}
-                whileHover={{ scale: 1.05, rotate: 1, boxShadow: '0 0 15px rgba(236, 72, 153, 0.5)' }}
-                whileTap={{ scale: 0.95, rotate: -1 }}
+                whileHover={{ scale: 1.05, rotate: 3, boxShadow: '0 0 20px rgba(236, 72, 153, 0.7)' }}
+                whileTap={{ scale: 0.95, rotate: -3 }}
                 initial={{ opacity: 0, scale: 0.8, rotateY: 45 }}
                 animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-                transition={{ duration: 1.2, type: 'spring', stiffness: 70, damping: 20 }}
+                transition={{ 
+                  duration: 1.2, 
+                  type: 'spring', 
+                  stiffness: 200, 
+                  damping: 15 
+                }}
+
               >
-                <h3 className="text-2xl font-bold mb-4 text-white">Low-Code / No-Code</h3>
-                <p className="text-white/80 mb-4">
+                <h3 className="text-3xl font-bold mb-6 text-white">Low-Code / No-Code</h3>
+                <p className="text-white/80 mb-6 text-xl leading-relaxed">
                   La démocratisation du développement logiciel et son impact sur l'industrie IT entre 2023 et 2025.
                 </p>
                 <div className="flex justify-between items-center mt-4">
-                  <span className="text-sm text-pink-300">2023-2025</span>
-                  <button className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300">
+                  <span className="text-lg text-pink-300 font-medium">2023-2025</span>
+                  <button className="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300 text-lg font-medium">
                     Consulter
                   </button>
                 </div>
@@ -72,21 +78,28 @@ export default function VeilleSelector() {
               
               {/* Carte pour la veille Jeux Mobiles */}
               <motion.div 
-                className="bg-gradient-to-br from-blue-800/40 to-purple-600/40 p-6 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer"
+                className="bg-gradient-to-br from-blue-800/40 to-purple-600/40 p-10 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer h-[32rem] flex flex-col justify-between"
                 onClick={() => selectVeille('jeux')}
-                whileHover={{ scale: 1.05, rotate: -1, boxShadow: '0 0 15px rgba(124, 58, 237, 0.5)' }}
-                whileTap={{ scale: 0.95, rotate: 1 }}
+                whileHover={{ scale: 1.05, rotate: -3, boxShadow: '0 0 20px rgba(124, 58, 237, 0.7)' }}
+                whileTap={{ scale: 0.95, rotate: 3 }}
                 initial={{ opacity: 0, scale: 0.8, rotateY: -45 }}
                 animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-                transition={{ duration: 1.2, delay: 0.2, type: 'spring', stiffness: 70, damping: 20 }}
+                transition={{ 
+                  duration: 1.2, 
+                  delay: 0.2, 
+                  type: 'spring', 
+                  stiffness: 200, 
+                  damping: 15 
+                }}
+
               >
-                <h3 className="text-2xl font-bold mb-4 text-white">Jeux Vidéo Mobiles</h3>
-                <p className="text-white/80 mb-4">
+                <h3 className="text-3xl font-bold mb-6 text-white">Jeux Vidéo Mobiles</h3>
+                <p className="text-white/80 mb-6 text-xl leading-relaxed">
                   Évolution et tendances des jeux mobiles, technologies émergentes et nouveaux modèles économiques.
                 </p>
                 <div className="flex justify-between items-center mt-4">
-                  <span className="text-sm text-blue-300">2023-2025</span>
-                  <button className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300">
+                  <span className="text-lg text-blue-300 font-medium">2023-2025</span>
+                  <button className="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300 text-lg font-medium">
                     Consulter
                   </button>
                 </div>
@@ -94,21 +107,28 @@ export default function VeilleSelector() {
               
               {/* Carte pour la veille Streaming */}
               <motion.div 
-                className="bg-gradient-to-br from-red-800/40 to-orange-600/40 p-6 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer"
+                className="bg-gradient-to-br from-red-800/40 to-orange-600/40 p-10 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer h-[32rem] flex flex-col justify-between"
                 onClick={() => selectVeille('streaming')}
-                whileHover={{ scale: 1.05, rotate: 1, boxShadow: '0 0 15px rgba(239, 68, 68, 0.5)' }}
-                whileTap={{ scale: 0.95, rotate: -1 }}
+                whileHover={{ scale: 1.05, rotate: 3, boxShadow: '0 0 20px rgba(239, 68, 68, 0.7)' }}
+                whileTap={{ scale: 0.95, rotate: -3 }}
                 initial={{ opacity: 0, scale: 0.8, rotateY: 45 }}
                 animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-                transition={{ duration: 1.2, delay: 0.4, type: 'spring', stiffness: 70, damping: 20 }}
+                transition={{ 
+                  duration: 1.2, 
+                  delay: 0.4, 
+                  type: 'spring', 
+                  stiffness: 200, 
+                  damping: 15 
+                }}
+
               >
-                <h3 className="text-2xl font-bold mb-4 text-white">Plateformes de Streaming</h3>
-                <p className="text-white/80 mb-4">
+                <h3 className="text-3xl font-bold mb-6 text-white">Plateformes de Streaming</h3>
+                <p className="text-white/80 mb-6 text-xl leading-relaxed">
                   L'évolution des plateformes de streaming vidéo, innovations technologiques et nouveaux usages.
                 </p>
                 <div className="flex justify-between items-center mt-4">
-                  <span className="text-sm text-red-300">2023-2025</span>
-                  <button className="px-4 py-2 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300">
+                  <span className="text-lg text-red-300 font-medium">2023-2025</span>
+                  <button className="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300 text-lg font-medium">
                     Consulter
                   </button>
                 </div>

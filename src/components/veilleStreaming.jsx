@@ -59,6 +59,12 @@ export default function VeilleStreaming({ onBack }) {
               >
                 Sources
               </button>
+              <button 
+                className={`px-4 py-2 ${activeTab === 'outils-utilises' ? 'bg-white/20 text-white rounded-t-lg' : 'text-white/70 hover:bg-white/10'}`}
+                onClick={() => setActiveTab('outils-utilises')}
+              >
+                Outils utilisés
+              </button>
             </div>
             
             {/* Contenu des onglets */}
@@ -405,6 +411,50 @@ export default function VeilleStreaming({ onBack }) {
                         </div>
                       </li>
                     </ul>
+                  </div>
+                </div>
+              )}
+              
+              {activeTab === 'outils-utilises' && (
+                <div className="space-y-4">
+                  <h4 className="text-xl font-semibold mb-4">Outils utilisés pour cette veille technologique</h4>
+                  
+                  <div className="bg-gradient-to-r from-red-800/20 to-orange-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils de veille et de recherche</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Google Alerts</strong> - Alertes sur les mots-clés liés au streaming vidéo</li>
+                      <li><strong>Reddit</strong> - Suivi des subreddits dédiés aux plateformes de streaming</li>
+                      <li><strong>Twitter/X</strong> - Veille des comptes officiels des plateformes et experts du domaine</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-red-800/20 to-orange-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Outils d'analyse et de mesure</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Statista</strong> - Statistiques et études de marché sur l'industrie du streaming</li>
+                      <li><strong>Fast.com</strong> - Outil de mesure de vitesse de connexion internet de Netflix</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="bg-gradient-to-r from-red-800/20 to-orange-600/20 p-5 rounded-lg my-4">
+                    <h5 className="font-semibold mb-3">Plateformes testées et analysées</h5>
+                    <ul className="list-disc pl-6 space-y-2">
+                      <li><strong>Netflix</strong> - Leader mondial du streaming à la demande</li>
+                      <li><strong>Disney+</strong> - Plateforme de streaming de Disney</li>
+                      <li><strong>Twitch</strong> - Plateforme de streaming en direct spécialisée dans les jeux vidéo</li>
+                    </ul>
+                  </div>
+                  
+                  <div className="mt-6 p-4 bg-white/10 rounded-lg">
+                    <h5 className="font-semibold mb-2 text-center">Méthodologie</h5>
+                    <p>
+                      Cette veille a été réalisée selon une approche multidimensionnelle :
+                      <ul className="list-disc pl-6 space-y-1 mt-2">
+                        <li>Suivi régulier des actualités et innovations dans le domaine du streaming vidéo</li>
+                        <li>Analyse des performances techniques et de l'expérience utilisateur</li>
+                        <li>Participation à des forums et groupes de discussion spécialisés</li>
+                      </ul>
+                    </p>
                   </div>
                 </div>
               )}
