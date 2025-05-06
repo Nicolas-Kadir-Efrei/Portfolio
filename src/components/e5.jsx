@@ -125,8 +125,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Application météo (React, CSS, API OpenWeather)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Octobre 2023</div>
+                                <div className="font-bold">Application météo (React, React CSS, API OpenWeather)</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 01/09/2024 au 15/01/2025</div>
                                 Application météorologique avec une API publique (Open Weather), nous avons pu développer le côté Frontend et intégrer correctement l'API pour afficher les données météorologiques selon la recherche de météo par ville et par pays.</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -137,8 +137,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Application de gestion de tournois (Next.js, Prisma, Bootstrap)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Décembre 2023 - Janvier 2024</div>
+                                <div className="font-bold">Application de création et de gestion de tournois avec interface user et admin (React, CSS, Node, PHP, MySQL, Bootstrap, TailwindCSS, Figma)</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 01/02/2025 au 15/05/2025</div>
                                 Application de création et de gestion de tournois avec interface user et admin en Python, CSS, Next, Prisma, Botstrap. L'équipe a développé le côté Frontend et intégré les données venant du backend, d'équipe avec une gestion spatiale par capacité d'équipe, et l'utilisateur avec un système de notification, et de contact admin.</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -149,8 +149,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Association sportive - Gestion de tournois (Next.js, Prisma, Bootstrap)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Février - Mars 2024</div>
+                                <div className="font-bold">Association de création et de gestion de tournois avec interface admin (Python, CSS, Node, Python, Bootstrap, Figma)</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 16/01/2025 au 15/05/2025</div>
                                 Association de création et de gestion de tournois avec interface admin en Python, CSS, Next, Prisma, Botstrap. L'équipe avons développé le côté Frontend et intégré les données venant du backend. L'application possède une création de tournois, d'équipe (avec une gestion spatiale par capacité d'équipe), et l'utilisateur avec un système de notification et de messagerie admin.</td>
                               <td className="border border-gray-300 p-2 text-center"></td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -164,8 +164,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Application de maintenance pour SAP (PHP, HTML, CSS, JS)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Mai - Juin 2023</div>
+                                <div className="font-bold">Application de maintenance pour SAP (HTML, CSS, JS)</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 15/05/2024 au 14/06/2024</div>
                                 Application de maintenance pour SAP analyse (PHP, HTML, CSS, JS), recherche de code dans les fichiers, mise en place d'un outil de SAP sur un bloc de données afin de déterminer la taille, le nombre de ligne de code présent etc...</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -179,8 +179,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Création de formulaires de tickets incidents (ServiceNow)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Septembre - Octobre 2024</div>
+                                <div className="font-bold">Création de formulaires de tickets incidents dans ServiceNow</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 05/10/24 au 10/12/24</div>
                                 Création de formulaires de tickets incidents dans ServiceNow avec envoi de mails automatique</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -191,8 +191,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Intégration de données via API REST (ServiceNow)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Novembre 2024</div>
+                                <div className="font-bold">Utilisation des API REST de ServiceNow pour l'intégration des données</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 20/11/24 au 20/12/24</div>
                                 Utilisation des API REST de ServiceNow pour l'intégration des données de bases entreprises, assurances, etc.</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -203,8 +203,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Gestion des CI dans ServiceNow</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Décembre 2024</div>
+                                <div className="font-bold">Gestion des CI dans ServiceNow - Incidents, cas vécus, Résolution Serrer</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 02/12/24 au 10/12/24</div>
                                 Gestion des CI dans ServiceNow : matériels, serveurs, Windows Server</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -215,8 +215,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Développement de scripts (ServiceNow, JavaScript)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Janvier 2025</div>
+                                <div className="font-bold">Développement de scripts dans ServiceNow (Business Rules, UI Policies et Workflows)</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 18/01/25 au 24/02/25</div>
                                 Développement de scripts dans ServiceNow (Business Rules, UI Policy) en JavaScript</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -227,8 +227,8 @@ export default function E5Section() {
                             </tr>
                             <tr>
                               <td className="border border-gray-300 p-2">
-                                <div className="font-bold">Intégration à la CMDB et configuration (ServiceNow)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Février 2025</div>
+                                <div className="font-bold">Intégration LDAP de ServiceNow et configuration du Workspace</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 05/02/25 au 05/03/25</div>
                                 Intégration à la CMDB de ServiceNow et configuration de Workspace</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -240,7 +240,7 @@ export default function E5Section() {
                             <tr>
                               <td className="border border-gray-300 p-2">
                                 <div className="font-bold">Démo et accompagnement au changement (ServiceNow)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Mars 2025</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 15/03/25 au 23/03/25</div>
                                 Démo des développements ServiceNow, accompagnement du changement auprès des tests</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
@@ -252,7 +252,7 @@ export default function E5Section() {
                             <tr>
                               <td className="border border-gray-300 p-2">
                                 <div className="font-bold">Suivi Agile et mise en production (ServiceNow)</div>
-                                <div className="text-xs text-gray-600 mb-1">Date : Avril 2025</div>
+                                <div className="text-xs text-gray-600 mb-1">Date : 27/03/25 au 24/04/25</div>
                                 Suivi Agile et mise en production finale dans ServiceNow</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>
                               <td className="border border-gray-300 p-2 text-center">X</td>

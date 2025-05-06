@@ -235,7 +235,7 @@ const SnakeGame = () => {
           boxShadow: '0 0 20px rgba(0,0,0,0.3)'
         }}
       />
-      <div className="mt-4 text-white text-xl">
+      <div className="mt-4 text-white text-xl flex gap-4">
         {(gameOver || victory) && (
           <button 
             onClick={() => window.location.reload()} 
@@ -244,6 +244,12 @@ const SnakeGame = () => {
             Rejouer
           </button>
         )}
+        <button 
+          onClick={() => window.location.href = '/'} 
+          className="px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition-colors font-bold"
+        >
+          Menu Principal
+        </button>
       </div>
     </div>
   );

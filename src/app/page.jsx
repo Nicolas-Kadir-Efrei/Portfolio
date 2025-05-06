@@ -118,7 +118,7 @@ export default function Portfolio() {
         
         {/* Navigation */}
         <div className="flex flex-col space-y-3">
-          {["accueil", "about", "parcours", "projets", "veille", "e5", "BTS SIO"].map((item) => (
+          {["accueil", "à propos", "parcours", "projets", "veille", "e5", "BTS SIO"].map((item) => (
             <Button
               key={item}
               onClick={() => handleNavigation(item)}
