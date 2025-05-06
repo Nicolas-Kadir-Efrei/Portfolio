@@ -305,7 +305,7 @@ export default function VeilleStreaming({ onBack }) {
                         <div>
                           <span className="text-white/80">"The Gauge: Streaming Snapshot", Nielsen, 2023</span>
                           <a 
-                            href="https://www.nielsen.com/insights/2023/streaming-claims-largest-piece-of-tv-viewing-pie-in-july/" 
+                            href="https://www.nielsen.com/fr/data-center/the-gauge/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="ml-2 inline-block px-2 py-1 bg-orange-600/40 hover:bg-orange-600/60 rounded text-xs transition-colors duration-300"
@@ -337,9 +337,9 @@ export default function VeilleStreaming({ onBack }) {
                       <li className="flex items-start">
                         <span className="text-white/80 mr-2">•</span>
                         <div>
-                          <span className="text-white/80">"Comment l'IA transforme le streaming vidéo", Wired, 2023</span>
+                          <span className="text-white/80">"L'intelligence artificielle, nouvel acteur du cinéma et de l'industrie du film", Numalis, 2023</span>
                           <a 
-                            href="https://www.wired.com/story/generative-ai-streaming-video/" 
+                            href="https://numalis.com/fr/lintelligence-artificielle-nouvel-acteur-du-cinema-et-de-lindustrie-du-film/" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="ml-2 inline-block px-2 py-1 bg-orange-600/40 hover:bg-orange-600/60 rounded text-xs transition-colors duration-300"
@@ -351,9 +351,9 @@ export default function VeilleStreaming({ onBack }) {
                       <li className="flex items-start">
                         <span className="text-white/80 mr-2">•</span>
                         <div>
-                          <span className="text-white/80">"L'avenir du streaming vidéo", Variety, 2023</span>
+                          <span className="text-white/80">"Le Streaming Vidéo Révolutionne-t-il Notre Façon de Consommer du Contenu Visuel?", Keoby, 2024</span>
                           <a 
-                            href="https://variety.com/lists/streaming-services-guide/" 
+                            href="https://www.keoby.com/le-streaming-video-revolutionne-t-il-notre-facon-de-consommer-du-contenu-visuel" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="ml-2 inline-block px-2 py-1 bg-orange-600/40 hover:bg-orange-600/60 rounded text-xs transition-colors duration-300"

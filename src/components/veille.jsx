@@ -311,9 +311,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Low-code : le développement d'applications sans code", Futura Tech, 2024</span>
+                            <span className="text-white/80">"8 Tendances Low-Code/No-Code en 2024", Startechup, 2024</span>
                             <a 
-                              href="https://www.futura-sciences.com/tech/definitions/developpement-informatique-low-code-19438/" 
+                              href="https://www.startechup.com/fr/blog/8-low-code-no-code-trends-in-2024/" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -325,9 +325,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Les outils no-code et low-code : comment ça marche ?", BDM, 2023</span>
+                            <span className="text-white/80">"Développement Low Code / No Code : avantages et inconvénients", Synapsys groupe, 2024</span>
                             <a 
-                              href="https://www.blogdumoderateur.com/dossiers/no-code-low-code/" 
+                              href="https://synapsys-groupe.com/blog/developpement-low-code-no-code/" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -339,9 +339,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Guide complet du No-Code/Low-Code pour les débutants", Malt, 2024</span>
+                            <span className="text-white/80">"NoCode : Définition, Avantages, Outils… notre Guide !", Ecole Cube, 2024</span>
                             <a 
-                              href="https://www.malt.fr/blog/guide-no-code-low-code" 
+                              href="https://www.ecole.cube.fr/nocode-guide-complet" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -353,9 +353,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Low-code : définition et avantages pour les entreprises", L'Usine Digitale, 2023</span>
+                            <span className="text-white/80">"No-code, low-code... Quels avantages et quels inconvénients pour ces solutions de développement simplifié", Usine Digitale, 2023</span>
                             <a 
-                              href="https://www.usine-digitale.fr/article/qu-est-ce-que-le-low-code-et-quels-sont-ses-avantages.N2077181" 
+                              href="https://www.usine-digitale.fr/article/no-code-low-code-quels-avantages-et-quels-inconvenients-pour-ces-solutions-de-developpement-simplifie.N1055904" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -387,9 +387,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Low-code vs No-code : Quelles différences ?", Micode, 2024</span>
+                            <span className="text-white/80">"Pourquoi le No-Code est un piège pour les startups", Underscore, 2024</span>
                             <a 
-                              href="https://www.youtube.com/watch?v=jBFmK9-SYbc" 
+                              href="https://www.youtube.com/watch?v=qHPBB5lHSoI" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -401,9 +401,9 @@ export default function VeilleSection({ onBack }) {
                         <li className="flex items-start">
                           <span className="text-white/80 mr-2">•</span>
                           <div>
-                            <span className="text-white/80">"Tutoriel Webflow : Créer un site web sans coder", Webflow France, 2023</span>
+                            <span className="text-white/80">"Apprendre à faire ton premier site no code sur Webflow - Tutoriel facile en français", Coriace | No-Code, 2023</span>
                             <a 
-                              href="https://www.youtube.com/watch?v=Hn-ypHRGO2s" 
+                              href="https://www.youtube.com/watch?v=IcCsRXxhfgU" 
                               target="_blank" 
                               rel="noopener noreferrer"
                               className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
@@ -412,34 +412,7 @@ export default function VeilleSection({ onBack }) {
                             </a>
                           </div>
                         </li>
-                        <li className="flex items-start">
-                          <span className="text-white/80 mr-2">•</span>
-                          <div>
-                            <span className="text-white/80">"Power Apps : Créer une application métier en 1h", Microsoft France, 2024</span>
-                            <a 
-                              href="https://www.youtube.com/watch?v=s5KG0JC4zRw" 
-                              target="_blank" 
-                              rel="noopener noreferrer"
-                              className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
-                            >
-                              Voir le tuto
-                            </a>
-                          </div>
-                        </li>
-                        <li className="flex items-start">
-                          <span className="text-white/80 mr-2">•</span>
-                          <div>
-                            <span className="text-white/80">"Comment j'ai créé mon e-commerce sans coder avec Shopify", Captain Contenu, 2023</span>
-                            <a 
-                              href="https://www.youtube.com/watch?v=Lq2M5EKG5QE" 
-                              target="_blank" 
-                              rel="noopener noreferrer"
-                              className="ml-2 inline-block px-2 py-1 bg-pink-600/40 hover:bg-pink-600/60 rounded text-xs transition-colors duration-300"
-                            >
-                              Voir la vidéo
-                            </a>
-                          </div>
-                        </li>
+
                       </ul>
                     </div>
                   </div>

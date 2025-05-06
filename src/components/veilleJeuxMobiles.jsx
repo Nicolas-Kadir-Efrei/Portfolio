@@ -289,7 +289,7 @@ export default function VeilleJeuxMobiles({ onBack }) {
                         <div>
                           <span className="text-white/80">"L'état du jeu mobile en 2023", Newzoo, Janvier 2023</span>
                           <a 
-                            href="https://newzoo.com/insights/trend-reports/newzoo-global-mobile-games-market-report-2023-free-version" 
+                            href="https://newzoo.com/resources/blog/last-looks-the-global-games-market-in-2023#:~:text=Our%20final%20calculation%20shows%20that,2.1%25%20to%20almost%20%2490%20billion" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="ml-2 inline-block px-2 py-1 bg-blue-600/40 hover:bg-blue-600/60 rounded text-xs transition-colors duration-300"
@@ -301,9 +301,9 @@ export default function VeilleJeuxMobiles({ onBack }) {
                       <li className="flex items-start">
                         <span className="text-white/80 mr-2">•</span>
                         <div>
-                          <span className="text-white/80">"Tendances des jeux mobiles", data.ai (anciennement App Annie), 2023</span>
+                          <span className="text-white/80">"Les plus grandes tendances des jeux mobiles en 2023", MistPlay, 2023</span>
                           <a 
-                            href="https://www.data.ai/en/insights/mobile-gaming/" 
+                            href="https://fr.mistplay.com/resources/the-biggest-mobile-gaming-trends-of-2023" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="ml-2 inline-block px-2 py-1 bg-blue-600/40 hover:bg-blue-600/60 rounded text-xs transition-colors duration-300"
@@ -315,15 +315,15 @@ export default function VeilleJeuxMobiles({ onBack }) {
                       <li className="flex items-start">
                         <span className="text-white/80 mr-2">•</span>
                         <div>
-                          <span className="text-white/80">"Comment l'IA transforme le développement de jeux", Game Developer, 2023</span>
-                          <a 
-                            href="https://www.gamedeveloper.com/programming/how-ai-is-being-used-in-game-development" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="ml-2 inline-block px-2 py-1 bg-blue-600/40 hover:bg-blue-600/60 rounded text-xs transition-colors duration-300"
-                          >
-                            Lire l'article
-                          </a>
+                          <span className="text-white/80">"Jeux mobiles : Tendances et opportunités", Dirox, 2023</span>
+                            <a 
+                              href="https://dirox.com/fr-fr/post/jeux-mobiles-tendances-opportunites" 
+                              target="_blank" 
+                              rel="noopener noreferrer"
+                              className="ml-2 inline-block px-2 py-1 bg-blue-600/40 hover:bg-blue-600/60 rounded text-xs transition-colors duration-300"
+                            >
+                              Lire l'article
+                            </a>
                         </div>
                       </li>
                     </ul>
@@ -332,20 +332,7 @@ export default function VeilleJeuxMobiles({ onBack }) {
                   <div className="bg-white/10 p-5 rounded-lg">
                     <h5 className="font-bold text-lg mb-3 text-blue-300">Vidéos et Podcasts</h5>
                     <ul className="space-y-3 pl-5">
-                      <li className="flex items-start">
-                        <span className="text-white/80 mr-2">•</span>
-                        <div>
-                          <span className="text-white/80">"The Future of Mobile Game Development", GDC Talk, 2023</span>
-                          <a 
-                            href="https://www.youtube.com/watch?v=ZHhyRam7qho" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="ml-2 inline-block px-2 py-1 bg-blue-600/40 hover:bg-blue-600/60 rounded text-xs transition-colors duration-300"
-                          >
-                            Voir la vidéo
-                          </a>
-                        </div>
-                      </li>
+
                       <li className="flex items-start">
                         <span className="text-white/80 mr-2">•</span>
                         <div>
