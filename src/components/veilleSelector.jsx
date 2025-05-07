@@ -47,34 +47,9 @@ export default function VeilleSelector() {
               Veilles Technologiques
             </motion.h2>
             
-            <div className="grid md:grid-cols-3 gap-12">
-              {/* Carte pour la veille Low-Code/No-Code */}
-              <motion.div 
-                className="bg-gradient-to-br from-purple-800/40 to-pink-600/40 p-10 rounded-xl backdrop-blur-sm border border-white/20 shadow-lg cursor-pointer h-[32rem] flex flex-col justify-between"
-                onClick={() => selectVeille('nocode')}
-                whileHover={{ scale: 1.05, rotate: 3, boxShadow: '0 0 20px rgba(236, 72, 153, 0.7)' }}
-                whileTap={{ scale: 0.95, rotate: -3 }}
-                initial={{ opacity: 0, scale: 0.8, rotateY: 45 }}
-                animate={{ opacity: 1, scale: 1, rotateY: 0 }}
-                transition={{ 
-                  duration: 1.2, 
-                  type: 'spring', 
-                  stiffness: 200, 
-                  damping: 15 
-                }}
+            <div className="grid md:grid-cols-2 gap-12 mx-auto">
+              {/* Carte pour la veille Low-Code/No-Code - TEMPORAIREMENT DÉSACTIVÉE */}
 
-              >
-                <h3 className="text-3xl font-bold mb-6 text-white">Low-Code / No-Code</h3>
-                <p className="text-white/80 mb-6 text-xl leading-relaxed">
-                  La démocratisation du développement logiciel et son impact sur l'industrie IT entre 2023 et 2025.
-                </p>
-                <div className="flex justify-between items-center mt-4">
-                  <span className="text-lg text-pink-300 font-medium">2023-2025</span>
-                  <button className="px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg transition-colors duration-300 text-lg font-medium">
-                    Consulter
-                  </button>
-                </div>
-              </motion.div>
               
               {/* Carte pour la veille Jeux Mobiles */}
               <motion.div 
@@ -152,7 +127,8 @@ export default function VeilleSelector() {
           exit={{ opacity: 0, scale: 1.1, y: -50, filter: 'blur(10px)' }}
           transition={{ duration: 1.1, ease: [0.16, 1.0, 0.3, 1.0] }}
         >
-          {activeVeille === 'nocode' && <VeilleNoCode onBack={handleBack} />}
+          {/* Veille No-Code temporairement désactivée */}
+          {/* {activeVeille === 'nocode' && <VeilleNoCode onBack={handleBack} />} */}
           {activeVeille === 'jeux' && <VeilleJeuxMobiles onBack={handleBack} />}
           {activeVeille === 'streaming' && <VeilleStreaming onBack={handleBack} />}
         </motion.div>
